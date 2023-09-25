@@ -1,0 +1,17 @@
+body {
+    background-color: darkslateblue;
+    padding: 80px 200px;
+}
+.table td {
+    border: 2px solid black;
+}
+.table td img {
+    width: 80px;
+    height: 80px;
+}
+.table td a {
+    opacity: 0;
+}
+.table td:target a {
+    opacity: 1;
+}
