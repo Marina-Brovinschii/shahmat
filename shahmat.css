@@ -2,6 +2,9 @@ body {
     background-color: darkslateblue;
     padding: 80px 200px;
 }
+.table {
+    background-color:rgb(101, 26, 26);
+}
 .table td {
     border: 2px solid black;
 }
@@ -14,4 +17,5 @@ body {
 }
 .table td:target a {
     opacity: 1;
+    background-color: white;
 }
